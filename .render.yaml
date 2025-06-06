@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: Algo-vis
-    env: java
-    buildCommand: ./mvnw clean install
-    startCommand: java -jar target/my-springboot-app-0.0.1-SNAPSHOT.jar
-    plan: free
